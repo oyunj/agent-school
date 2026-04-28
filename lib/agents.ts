@@ -2,7 +2,7 @@ import fs from 'fs'
 import path from 'path'
 import matter from 'gray-matter'
 
-const AGENTS_DIR = path.join(process.cwd(), '..', 'agency-agents')
+const AGENTS_DIR = path.join(process.cwd(), 'agency-agents')
 
 // Directories to skip (not agent files)
 const SKIP_DIRS = new Set(['examples', 'integrations', 'scripts', 'strategy', '.github'])
